@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card-item {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #35956d;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
